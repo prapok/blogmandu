@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[context.production.environment]
+REACT_APP_API_URL=https://blogmandu-admin.herokuapp.com
+REACT_APP_DOMAIN=https://blogmandu.netlify.app
+REACT_APP_DISQUS_SHORTNAME=miniblog-7
