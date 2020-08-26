@@ -1,0 +1,20 @@
+.grid-layout {
+    display: grid;
+    grid-gap: 30px;
+    grid-auto-rows: minmax(180px, 200px);
+    grid-auto-flow: column;
+}
+
+.span-2 {
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+ .grid-layout {
+    display: block;
+    
+  }
+  .grid-item{margin-bottom: 30px;}
+}

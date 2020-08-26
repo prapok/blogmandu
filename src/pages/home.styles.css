@@ -1,0 +1,14 @@
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+  }
+  .block {
+    flex: 0 0 50px;
+    margin: 5px;
+    background-color: red;
+  }
+  .bigger{
+    flex-basis: 110px;
+  }
